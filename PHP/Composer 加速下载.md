@@ -24,10 +24,12 @@ $ composer config -g repo.packagist composer https://packagist.laravel-china.org
 $ composer global require hirak/prestissimo
 ```
 
+
+
 ## Composer 镜像管理工具
 
 * [slince/composer-registry-manager](https://laravel-china.org/topics/4134/amway-composer-source-management-tool-slincecrm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1NDAyNDRdfQ==
+eyJoaXN0b3J5IjpbLTEyNzkzNjM3ODQsOTE1NDAyNDRdfQ==
 -->
