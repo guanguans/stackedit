@@ -21,13 +21,9 @@ information_schema.tables,
 # 关联任意一张系统表; 一定的是系统表;
 (SELECT @s := - 1) temp
 WHERE
-
 @s < 10
-
 ORDER BY
-
 _date
-
 ) AS tbl
 
 LEFT JOIN (
@@ -37,7 +33,6 @@ SELECT count(*) AS totalnum, DATE(ctime) createdate
 FROM zxx_news GROUP BY createdate ) AS tbr ON tbl._date = tbr.createdate
 
 GROUP BY tbl._date;
-
 ```
 
   
@@ -120,5 +115,5 @@ t2.year_month_str;
 
 ![](//upload-images.jianshu.io/upload_images/5189018-ca5468ea73e6d1dd.png?imageMogr2/auto-orient/strip|imageView2/2/w/1008/format/webp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTc3ODc2XX0=
+eyJoaXN0b3J5IjpbMTU1MzY3MzU3NF19
 -->
