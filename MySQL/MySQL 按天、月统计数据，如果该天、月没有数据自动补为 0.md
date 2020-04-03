@@ -64,7 +64,8 @@ GROUP BY
 	t2.year_month_str;
 ```
 
-![](//upload-images.jianshu.io/upload_images/5189018-ca5468ea73e6d1dd.png?imageMogr2/auto-orient/strip|imageView2/2/w/1008/format/webp)
+![](https://upload-images.jianshu.io/upload_images/5189018-ca5468ea73e6d1dd.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2MjIyMTE2LC0xMjEzNzc2ODg2XX0=
+eyJoaXN0b3J5IjpbLTE5NDMwNjI4NTcsLTEyMTM3NzY4ODZdfQ
+==
 -->
