@@ -14,8 +14,8 @@ FROM
 		@s := @s + 1 AS _index,
 		DATE( DATE_SUB( CURRENT_DATE, INTERVAL @s DAY ) ) AS _date 
 	FROM
-		information_schema.TABLES,# mysql.help_topic,
-# 关联任意一张系统表; 一定的是系统表;
+		information_schema.TABLES, # mysql.help_topic,
+        # 关联任意一张系统表; 一定的是系统表;
 		( SELECT @s := - 1 ) temp 
 	WHERE
 		@s < 10 
@@ -35,7 +35,7 @@ GROUP BY
 	tbl._date;
 ```
 
-![](//upload-images.jianshu.io/upload_images/5189018-5447b20355e0c0c3.png?imageMogr2/auto-orient/strip|imageView2/2/w/969/format/webp)
+![](https://upload-images.jianshu.io/upload_images/5189018-5447b20355e0c0c3.png)
 
 ## 2、在做报表数据统计的时候，用一个折线图用来显示并统计最近 6 个月内的数据结算情况。为了前端小伙伴方便处理数据，需要将没有数据的月份默认填充为 0
 
@@ -66,5 +66,5 @@ GROUP BY
 
 ![](//upload-images.jianshu.io/upload_images/5189018-ca5468ea73e6d1dd.png?imageMogr2/auto-orient/strip|imageView2/2/w/1008/format/webp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM3NzY4ODZdfQ==
+eyJoaXN0b3J5IjpbMzA2MjIyMTE2LC0xMjEzNzc2ODg2XX0=
 -->
