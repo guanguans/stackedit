@@ -20,7 +20,6 @@ $ composer require guanguans/json-format -v
 ### 代码
 
 ``` php
-
 <?php
 
 require  __DIR__.'/vendor/autoload.php';
@@ -87,5 +86,5 @@ $ composer test
 
 [MIT](LICENSE)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNDI4MTBdfQ==
+eyJoaXN0b3J5IjpbMTk5MjAwMjYzMiw2NDM0MjgxMF19
 -->
