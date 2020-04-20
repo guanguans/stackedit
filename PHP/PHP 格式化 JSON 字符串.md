@@ -24,67 +24,35 @@ $ composer require guanguans/json-format -v
 
 require  __DIR__.'/vendor/autoload.php';
 
-  
-
 $json =  <<<'JSON'
-
 {"name":"json-format","keywords":["json","format","pretty"],"description":"Format json string."}
-
 JSON;
-
-  
-
 echo  json_format($json);
-
 ```
 
-  
-
-### Output
-
-  
+### 输出
 
 ``` json
-
 {
-
 "name": "json-format",
-
 "keywords": [
-
-"json",
-
-"format",
-
-"pretty"
-
+	"json",
+	"format",
+	"pretty"
 ],
-
 "description": "Format json string."
-
 }
-
 ```
 
-  
-
-## Testing
-
-  
+## 测试
 
 ``` shell
-
 $ composer test
-
 ```
-
-  
 
 ## License
 
-  
-
-[MIT](LICENSE)
+MIT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjAwMjYzMiw2NDM0MjgxMF19
+eyJoaXN0b3J5IjpbLTE2NzY2MDExOTAsNjQzNDI4MTBdfQ==
 -->
