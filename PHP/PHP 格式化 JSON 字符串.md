@@ -1,5 +1,5 @@
-> [json-format]([https://github.com/guanguans/json-format](https://github.com/guanguans/json-format))
-[https://github.com/guanguans/json-format](https://github.com/guanguans/json-format)
+> [https://github.com/guanguans/json-format](https://github.com/guanguans/json-format)
+
 <p  align="center"><img src="https://raw.githubusercontent.com/guanguans/json-format/master/docs/usage.png"></p>
 
 ## 环境要求
@@ -52,5 +52,5 @@ $ composer test
 
 MIT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwODAyMDk4LDY0MzQyODEwXX0=
+eyJoaXN0b3J5IjpbNjIwNTQ4NTM2LDY0MzQyODEwXX0=
 -->
