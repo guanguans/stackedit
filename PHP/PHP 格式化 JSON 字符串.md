@@ -2,7 +2,8 @@
 
 <p  align="center">Format json string.</p>
 
-<p  align="center"><img src="./docs/usage.png"></p>
+<p  align="center"><img src=""></p>
+
 
 ## 环境要求
 
@@ -54,5 +55,5 @@ $ composer test
 
 MIT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY2MDExOTAsNjQzNDI4MTBdfQ==
+eyJoaXN0b3J5IjpbLTU4MDAyMzI3NSw2NDM0MjgxMF19
 -->
