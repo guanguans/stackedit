@@ -1,4 +1,4 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://overtrue.me/articles/2017/08/about-composer-version-constraint.html
+原文地址 https://overtrue.me/articles/2017/08/about-composer-version-constraint.html
 
 相信 `Composer` 对你来说已经相当熟悉了，不过对于包的版本，我觉得应该还有不少同学不是那么清楚各种写法到底是啥意思。
 
@@ -19,7 +19,7 @@
 
 使用 `*` 号来表示版本的时候，composer 会根据你配置中的 `minimum-stability` 的值情况来决定安装最新的 dev 还是 stable 版本。 比如：
 
-```plain
+``` plain
 "require": {
 	"overtrue/wechat": "*"
 }
@@ -33,7 +33,7 @@
 
 比如：
 
-```plain
+``` plain
 "require": {
 	"overtrue/wechat": "dev-master"
 }
@@ -45,7 +45,7 @@
 
 这种方式比较常用，也是比较安全的，比如我们希望安装 >= 1.2 并且 < 2.0 的版本时，根据语义化版本的定义，次版本号的变化是新增功能，所以 API 是稳定的，也就是可以安全更新的。 你可以写成：
 
-```plain
+``` plain
 "require": {
 	"overtrue/wechat": "~1.2"
 }
@@ -53,7 +53,7 @@
 
 如果你希望次版本都不要更新，只允许修订版本（补丁版本）的变化，>= 1.1.15 并且 < 1.2.0，则写成：
 
-```plain
+``` plain
 "require": {
 	"overtrue/wechat": "~1.1.15"
 }
@@ -84,27 +84,15 @@
 
 所以需要注意这个问题，之所以这样设计是有原因的：[主版本号为零（0.y.z）的软件处于开发初始阶段，一切都可能随时被改变。这样的公共 API 不应该被视为稳定版。](http://semver.org/lang/zh-CN/#spec-item-4)
 
-  
-
 所以不要掉进这个坑哦。
 
-  
-
 总结
-
 --
-
-  
 
 无论你是包的作者，还是使用者，正确使用版本是非常重要的，尤其对于有一定使用量的包作者来讲，严格遵守语义化版本的规范是对你的用户负责。最后引入 semver.org 官网的一句话：
 
-  
-
 > 记住， 语义化的版本控制就是透过版本号的改变来传达意义。若这些改变对你的使用者是重要的，那就透过版本号来向他们说明。
 
-  
-
-Updated Monday, Apr 30, 2018
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDMwMDA5MV19
+eyJoaXN0b3J5IjpbLTEwMjUxMzQ5MzhdfQ==
 -->
